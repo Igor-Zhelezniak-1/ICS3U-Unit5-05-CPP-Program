@@ -61,7 +61,9 @@ int main() {
     std::string name;
     std::string question;
     std::string adress;
-
+    
+    std::cout << "This program formats your address to a mailing address." << std::endl;
+    
     // input
     std::cout << "Enter your full name: ";
     getline(std::cin, name);
